@@ -1,6 +1,12 @@
 # TSMC-Avisynth
 Motion Compensated Temporalsoften
 
+Requirements:
+
+Avisynth 2.6 or newer
+
+MVTOOLS2 2.6.0.5 or newer
+
 function TSMC(clip input, int "tradius", int "mthresh", int "lumathresh", int "blocksize",clip "auxclip")
 
 tradius
